@@ -1,0 +1,24 @@
+STOCK PRICE PREDICTION – MODEL SUMMARY
+=============================================
+
+Final Model: Linear Regression
+
+RMSE: 43.1210
+MAE : 33.3298
+R2 Train: 0.9992
+R2 Test : 0.9949
+
+Other Models (Comparison)
+---------------------------------------------
+Random Forest RMSE: 475.5769
+Gradient Boosting RMSE: 463.2441
+
+SUBMISSION MODEL (Signal-only -> reconstructed price)
+---------------------------------------------
+RMSE (Price, test)         : 42.1231
+MAE  (Price, test)         : 31.8807
+R2   (Price, test)         : -0.0019
+
+RMSE (reconstructed price)  : 42.1231
+MAE  (reconstructed price)  : 31.8807
+R2   (reconstructed price)  : 0.9951
